@@ -1,0 +1,20 @@
+body {
+    background-color: purple;
+    color: white;
+}
+
+li {
+    color: chartreuse;
+}
+
+#previouslyp {
+    background-color: lime;
+}
+
+#wozu {
+    width: 100px;
+}
+
+.centered {
+    text-align: center;
+}
