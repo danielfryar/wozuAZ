@@ -1,0 +1,17 @@
+
+thead {
+    background-color: darksalmon;
+}
+th {
+    border-style:solid;
+    border: solid black;
+}
+
+td { 
+    border-style: solid;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
