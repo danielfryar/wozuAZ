@@ -5,16 +5,16 @@ header {
 
 main {
     width: 95%;
+    height: 500px;
     background-color: cyan;
 }
 
 section {
-    float: center;
-    width: 75%;
-    border: solid black 10px;
-    background-color: plum;
+    border-radius: 25px;
+    background: plum;
+    padding: 20px; 
     margin: 30px;
-    height: 200px;
+    height: 30%;
 }
 
 /* 
