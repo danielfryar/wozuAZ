@@ -4,10 +4,14 @@ let dessert = [
     "ice cream"
 ];
 
-let i = 0;
-while (i < dessert.length) {
-    console.log(dessert[i]);
-    i++;
+// let i = 0;
+// while (i < dessert.length) {
+//     console.log(dessert[i]);
+//     i++;
+// }
+
+for (let i = 0; i < dessert.length; i++) {
+    console.log("dessert["+i+"]="+dessert[i]);
 }
 
 // dessert.length = 3
