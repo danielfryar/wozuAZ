@@ -1,17 +1,20 @@
-let changeColor = function(color) {
-    console.log("inside function", color)
-    document.getElementById("main")
+let changeColor = function(area) {
+    let color = document.getElementById("color"+area).value;
+    console.log("inside function", area, color);
+    document.getElementById("area"+area)
         .style.backgroundColor = color;
 }
 
-let colors = ["magenta","orange","green","cyan","yellow"];
 
-for (let i = 0; i< 500000000; i++) {
-    if (i%100000000 == 0) {
-        colorIndex = i/100000000;
-        changeColor(colors[colorIndex]);
-        console.log(i, colorIndex,colors[colorIndex]);
+document.getElementById("button1").addEventListener("click", 
+    function(event) {
+        event.preventDefault();
+        changeColor(1);
     }
-}
-
-changeColor(colors[2]);
+);
+document.getElementById("button2").addEventListener("click",
+function(event) {
+    event.preventDefault();
+    changeColor(2);
+    }
+);
