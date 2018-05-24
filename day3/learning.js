@@ -1,6 +1,6 @@
-var apples = 8;
-var oranges = 2;
-
-var fruit = apples + oranges;
-
-alert(fruit);
+let isHot;
+let name = "Daniel";
+let temp = 102;
+if (temp > 90) {
+    isHot = true;
+}
