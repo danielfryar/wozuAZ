@@ -9,9 +9,12 @@ let dessert = [
 //     console.log(dessert[i]);
 //     i++;
 // }
-
-for (let i = 0; i < dessert.length; i++) {
-    console.log("dessert["+i+"]="+dessert[i]);
+let output = "";
+for (let i = 0; 
+    i < dessert.length; 
+    i++) {
+        output = "dessert at place " + i + " = " + dessert[i];
+        console.log(output);
 }
 
 // dessert.length = 3
