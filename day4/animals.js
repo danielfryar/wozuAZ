@@ -7,9 +7,13 @@ let zoo = [
 ];
 zoo.push("snake");
 zoo.push("frog");
-while (zoo.length > 0) {
-    console.log(zoo.pop());
+let temp = 0;
+while (temp < zoo.length) {
+    console.log("zoo["+temp+"]="+zoo[temp]);
+    // console.log(zoo[temp]);
+    temp++;
 }
+console.log("temp="+temp);
 
 //zoo[]
 //zoo.indexOf("animal")
