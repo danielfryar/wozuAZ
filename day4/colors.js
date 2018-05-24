@@ -7,14 +7,12 @@ let changeColor = function(area) {
 
 
 document.getElementById("button1").addEventListener("click", 
-    function(event) {
-        event.preventDefault();
+    function() {
         changeColor(1);
     }
 );
 document.getElementById("button2").addEventListener("click",
-function(event) {
-    event.preventDefault();
-    changeColor(2);
+    function() {
+        changeColor(2);
     }
 );
