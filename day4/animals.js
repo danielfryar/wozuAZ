@@ -1,20 +1,21 @@
-let zoo = [
-    "bear",
-    "cardinal",
-    "kitten",
-    "elephant",
-    "rabbit"
+let dessert = [
+    "cookies",
+    "cake",
+    "ice cream"
 ];
-zoo.push("snake");
-zoo.push("frog");
-let temp = 0;
-while (temp < zoo.length) {
-    console.log("zoo["+temp+"]="+zoo[temp]);
-    // console.log(zoo[temp]);
-    temp++;
-}
-console.log("temp="+temp);
 
-//zoo[]
-//zoo.indexOf("animal")
-//zoo.splice("target",1)
+let i = 0;
+while (i < dessert.length) {
+    console.log(dessert[i]);
+    i++;
+}
+
+// dessert.length = 3
+// i = 0
+// "cookies"
+// i = 1
+// "cake"
+// i = 2
+// "ice cream"
+// i = 3
+// done
