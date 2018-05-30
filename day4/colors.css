@@ -5,8 +5,10 @@ header {
 
 main {
     width: 95%;
-    height: 500px;
+    height: 75%;
     background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
@@ -15,6 +17,16 @@ section {
     padding: 20px; 
     margin: 30px;
     height: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
 
 /* 
